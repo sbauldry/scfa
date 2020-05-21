@@ -3,10 +3,11 @@
 ### Date:    May 21, 2020
 
 
-### Clear, set working directory, and load Lavaan
+### Clear, set working directory, and load lavaan and polycor
 rm(list = ls())
 setwd("~/desktop")
 library(lavaan)
+library(polycor)
 
 
 ### Load data
@@ -17,6 +18,15 @@ attach(d1)
 ### declare indicators ordered
 d1[, c("V2", "V3", "V4", "V5", "V6", "V7")] <- 
   lapply(d1[, c("V2", "V3", "V4", "V5", "V6", "V7")], ordered)
+
+
+### selected polychoric correlations
+pc23 <- polychor(V2,V3)
+pc24 <- polychor(V2,V4)
+pc25 <- polychor(V2,V5)
+pc26 <- polychor(V2,V6)
+pc27 <- polychor(V2,V7)
+c(pc23, pc24, pc25, pc26, pc27)
 
 
 ### define measurement model
