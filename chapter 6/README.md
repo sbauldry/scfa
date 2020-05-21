@@ -15,14 +15,17 @@ The data file "chp6-data" is a csv file that contains the following variables fo
 
 ## Code Files
 
-### Stata
-1. chp6-stata.do
-
 ### Mplus
 1. chp6-mplus-wlsmv-delta.inp: code for WLS-MV estimator with delta parameterization
 2. chp6-mplus-wlsmv-theta.inp: code for WLS-MV estimator with theta parameterization
 3. chp6-mplus-mlr-logit.inp: code for ML estimator with logit link
 4. chp6-mplus-mlr-probit.inp: code for ML estimator with probit link
+
+### R
+1. chp6-R.R: code for WLS-MV estimator for delta and theta parameterization
+
+### Stata
+1. chp6-stata.do: code for figures, ML logit and probit, and calculating marginal effects
 
 
 ## Citation
