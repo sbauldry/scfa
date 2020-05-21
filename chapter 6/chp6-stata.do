@@ -6,7 +6,7 @@
 *** Clear, set working directory, and load data
 clear all
 cd ~/desktop
-import delim using chp6-data.csv, varn(1) delim(",")
+import delim id mp12a mp12b mp12c mp12d mp12e mp12f using chp6-data.csv
 
 
 *** preparing figure with distribution of indicators

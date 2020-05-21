@@ -1,0 +1,11 @@
+TITLE: Christian nationalism;
+DATA: FILE = chp6-data.csv;
+VARIABLE: NAMES = id mp12a mp12b mp12c mp12d mp12e mp12f;
+  USEVAR = mp12a-mp12f;
+  CATEGORICAL = mp12a-mp12f;
+ANALYSIS: ESTIMATOR = WLSMV;
+  PARAMETERIZATION = DELTA;
+MODEL:
+  CN BY mp12a-mp12f;
+OUTPUT: STDYX;
+
