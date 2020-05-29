@@ -1,0 +1,9 @@
+TITLE: Leadership;
+DATA: FILE = chp3-data-mplus.csv;
+VARIABLE: NAMES = lead intl infl strg comp nice plst like intl1 like1 intl2 like2;
+  USEVAR = lead intl1 infl strg comp nice plst like1;
+  MISSING = All(-9);
+MODEL:
+  LD BY lead intl1 infl strg comp;
+  LK BY nice plst like1;
+OUTPUT: STDYX;
