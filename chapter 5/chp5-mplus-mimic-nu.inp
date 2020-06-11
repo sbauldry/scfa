@@ -1,0 +1,11 @@
+TITLE: Democratic values in Germany and Spain;
+DATA: FILE = chp5-data.csv;
+VARIABLE: NAMES = ger fre rgt wom rel;
+  USEVAR = ger fre rgt wom rel;
+ANALYSIS: ESTIMATOR = MLR;
+  TYPE = RANDOM;
+MODEL:
+  Dem BY fre rgt wom rel;
+  Dem ON ger;
+  int | ger XWITH Dem;
+  wom ON ger Dem int;
