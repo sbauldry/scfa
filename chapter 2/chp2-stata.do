@@ -1,5 +1,5 @@
 *** Project: CFA Chapter 2
-*** Author:  M Roos
+*** Author:  JM Roos
 *** Date:    June 25, 2020
 
 
