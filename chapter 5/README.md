@@ -1,5 +1,5 @@
 # scfa
-The examples in Chapter 5 involve a measurement for beliefs about democracy using indicators from the Wave 6 of the World Values Survey (Ingelhart 20xx). Information about obtaining the data can be found at http://www.worldvaluessurvey.org/wvs.jsp.
+The examples in Chapter 5 involve a measurement for beliefs about democracy using indicators from the Wave 6 of the World Values Survey (Ingelhart 2014). Information about obtaining the data can be found at http://www.worldvaluessurvey.org/wvs.jsp.
 
 ## Data File
 The data file "chp5-data" is a csv file that contains the following variables for 2889 cases with non-missing data on all of the indicators. All of the indicators are coded 1 = not essential characteristic, ..., 10 = essential characteristic.
