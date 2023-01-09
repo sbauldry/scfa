@@ -13,19 +13,19 @@ This course provides an introduction to Confirmatory Factor Analysis (CFA). CFA 
 
 # Calendar & Topical Outline
 
-There are X videos of instruction. Links to lecture recordings will appear in this table. Problem sets and solutions accompany each of the substantive units.
+There are 11 videos of instruction. Links to lecture recordings will appear in this table. Problem sets and solutions accompany each of the substantive units.
 
-Full lecture playlist: <[CFA 2023 Playlist]()>
+Full lecture playlist: CFA 2023 Playlist
 
 | Unit ## | Reading | Lectures |
-| ------- | -------------- | ------------- | ---------------------- |
-| 1 | Chapter 1 | [1] <[Introduction to CFA]()> <[Slides]()>
-| 2 | Chapter 2 | [2] <[Model Specification]()> <[Slides]()> 
-| 3 | Chapter 3 | [3] <[Identification]()> <[Slides]()>  <br> [4] <[Estimation]()> <[Slides]()> 
-| 4 | Chapter 4 | [5] <[Model Evaluation]()> <[Slides]()>  <br> [6] <[Model Respecification]()> <[Slides]()> 
-| 5 | Chapter 5 | [7] <[Measurement Invariance]()> <[Slides]()>  <br> [8] <[Multiple-Groups Analysis]()> <[Slides]()> <br> [9] <[MIMIC Models]()> <[Slides]()>
-| 6 | Chapter 6 | [10] <[Categorical Indicators]()> <[Slides]()> 
-| 7 | Chapter 7 | [11] <[Conclusion]()> <[Slides]()> 
+| ------- | -------------- | ----------------------------------- |
+| 1       | Chapter 1      | [1] Introduction to CFA [Slides]
+| 2       | Chapter 2      | [2] Model Specification [Slides]
+| 3       | Chapter 3      | [3] Identification [Slides] <br> [4] Estimation [Slides] 
+| 4       | Chapter 4      | [5] Model Evaluation [Slides] <br> [6] Model Respecification [Slides] 
+| 5       | Chapter 5      | [7] Measurement Invariance [Slides] <br> [8] Multiple-Groups Analysis [Slides] <br> [9] MIMIC Models [Slides]
+| 6       | Chapter 6      | [10] Categorical Indicators [Slides] 
+| 7       | Chapter 7      | [11] Conclusion [Slides]
 
 
 # Coding
